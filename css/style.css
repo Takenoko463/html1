@@ -1,7 +1,12 @@
 @charset "utf-8";
+body {
+    color: #333333;
+    background-color: #ecf0f1;
+}
+
 h1 {
     font-size: 30px;
-    background-color: #00af3a;
+    background-color: #3498db;
     color: #ffffff;
     padding: 8px 14px;
     text-align: center;
@@ -9,8 +14,8 @@ h1 {
 
 h2 {
     font-size: 20px;
-    background-color: #080000;
-    color: #c1f103;
+    background-color: #3498db;
+    color: #f39c12;
     padding: 7px 10px;
 }
 
@@ -22,4 +27,12 @@ a.href {
 img {
     width: 25%;
     height: 25%;
+}
+
+strong.r {
+    color: red;
+}
+
+strong.b {
+    color: blue;
 }
