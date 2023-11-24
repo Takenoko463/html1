@@ -10,3 +10,12 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelector('#table-of-content').innerHTML += `<ol>${contents}</ol>`;
     }
 });
+
+// JavaScriptで各リストアイテムにスタイルを追加する
+document.addEventListener("DOMContentLoaded", function() {
+    var listItems = document.getElementById("comments").getElementsByTagName("ul");
+
+    for (var i = 0; i < listItems.length; i++) {
+        listItems[i].classList.add("balloon1-left");
+    }
+});
